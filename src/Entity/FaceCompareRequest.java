@@ -1,23 +1,23 @@
 package Entity;
 
 public class FaceCompareRequest {
-	private String faceFeature1;
-	private String faceFeature2;
+	private String facefeature1;
+	private String facefeature2;
 	
 	public void setFaceFeature1(String feature){
-		faceFeature1=feature;
+		facefeature1=feature;
 	}
 	
 	public String getFaceFeature1(){
-		return faceFeature1;
+		return facefeature1;
 	}
 	
 	public void setFaceFeature2(String feature){
-		faceFeature2=feature;
+		facefeature2=feature;
 	}
 	
 	public String getFaceFeature2()
 	{
-		return faceFeature2;
+		return facefeature2;
 	}
 }
