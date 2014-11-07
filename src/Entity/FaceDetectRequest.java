@@ -1,13 +1,13 @@
 package Entity;
 
 public class FaceDetectRequest {
-	private String faceImage;
+	private String faceimage;
 	
 	public String getFaceImage(){
-		return faceImage;
+		return faceimage;
 	}
 	
 	public void setFaceImage(String faceImage){
-		faceImage=faceImage;
+		faceimage=faceImage;
 	}
 }
