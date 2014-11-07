@@ -1,52 +1,52 @@
 package Entity;
 
 public class FaceModel {
-	private int FaceRectangleX;
-	private int FaceRectangleY;
-	private int FaceRectangleWidth;
-	private int FaceRectangleHeight;
-	private String Base64Feature;
+	private int facerectanglex;
+	private int facerectangley;
+	private int facerectanglewidth;
+	private int facerectangleheight;
+	private String base64feature;
 	
 	public void setFaceRectangleX(int faceRectangleX){
-		FaceRectangleX=faceRectangleX;
+		facerectanglex=faceRectangleX;
 	}
 	
 	public int getFaceRectangleX()
 	{
-		return FaceRectangleX;
+		return facerectanglex;
 	}
 	
 	public void setFaceRectangleY(int faceRectangleY){
-		FaceRectangleY=faceRectangleY;
+		facerectangley=faceRectangleY;
 	}
 	
 	public int getFaceRectangleY(){
-		return FaceRectangleY;
+		return facerectangley;
 	}
 	
 	public void setFaceRectangleWidth(int faceRectangleWidth){
-		FaceRectangleWidth=faceRectangleWidth;
+		facerectanglewidth=faceRectangleWidth;
 	}
 	
 	public int getFaceRectangleWidth()
 	{
-		return FaceRectangleWidth;
+		return facerectanglewidth;
 	}
 	
 	public void setFaceRectangleHeight(int faceRectangleHeight){
-		FaceRectangleHeight=faceRectangleHeight;
+		facerectangleheight=faceRectangleHeight;
 	}
 	
 	public int getFaceRectangleHeight(){
-		return FaceRectangleHeight;
+		return facerectangleheight;
 	}
 	
 	public String getFeature(){
-		return Base64Feature;
+		return base64feature;
 	}
 	
 	public void setFeature(String feature){
-		Base64Feature=feature;
+		base64feature=feature;
 	}
 	
 }
